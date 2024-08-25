@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For you<3</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo CSS -->
+    <script>
+        function showModal() {
+            document.getElementById("myModal").style.display = "flex";
+        }
+
+        function closeModal() {
+            window.location.href = "https://sergiom2004.github.io/For_you/"; // Enlace de otra página
+        }
+    </script>
+</head>
+<body>
+    <div class="button" onclick="showModal()">Click aquí</div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p>Antes de iniciar, pues se que te gustan las rosas y na solo espero que te guste. <3</p>
+            <button class="close-button" onclick="closeModal()">Cerrar</button>
+        </div>
+    </div>
+</body>
+</html>
